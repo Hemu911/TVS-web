@@ -4,7 +4,7 @@ import Navbar from '../Components/Navbar';
 const Contact = () => {
   return (
     <>
-      <Navbar title="Contact Us" />
+      <Navbar title="" />
 
       {/* Contact Section */}
       <section className="bg-white py-16 px-6 w-[92%] mx-auto mt-10 rounded-xl shadow">
@@ -16,10 +16,10 @@ const Contact = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto">
           {/* Contact Info */}
           <div className="bg-blue-50 p-6 rounded-xl shadow-md">
-            <h2 className="text-2xl font-semibold text-amber-900 mb-4">Contact Information</h2>
-            <p className="text-gray-700 mb-2"><strong>Email:</strong> tourism@example.com</p>
+            <h2 className="text-2xl font-semibold text-blue-900 mb-4">Contact Information</h2>
+            <p className="text-gray-700 mb-2"><strong>Email:</strong> visitwithus12@gmail.com</p>
             <p className="text-gray-700 mb-2"><strong>Phone:</strong> +977-9841234567</p>
-            <p className="text-gray-700"><strong>Address:</strong> Tulsipur, Dang, Nepal</p>
+            <p className="text-gray-700"><strong>Address:</strong> Ghorahi , Dang, Nepal</p>
           </div>
 
           {/* Contact Form */}
@@ -37,7 +37,7 @@ const Contact = () => {
               <label className="block text-gray-700 font-medium">Email Address</label>
               <input
                 type="email"
-                placeholder="you@example.com"
+                placeholder="vist@gmail.com"
                 className="w-full mt-1 p-2 border rounded focus:outline-none focus:ring focus:border-blue-400"
               />
             </div>

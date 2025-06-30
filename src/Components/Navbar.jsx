@@ -25,7 +25,7 @@ const Navbar = (props) => {
             </ul>
 
             <div className="left">
-              <button className="p-2 bg-blue-300 rounded">Login</button>
+              <button className="p-2 bg-blue-600 rounded">Login</button>
             </div>
           </nav>
         </div>

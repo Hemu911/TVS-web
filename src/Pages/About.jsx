@@ -4,7 +4,7 @@ import Navbar from '../Components/Navbar';
 const About = () => {
   return (
     <>
-      <Navbar title="About Us" />
+      <Navbar title="" />
 
       {/* About Section */}
       <section className="bg-white py-16 px-6 w-[92%] mx-auto mt-10 rounded-xl shadow">
@@ -53,7 +53,7 @@ const About = () => {
               alt="Team Member"
               className="rounded-full mx-auto mb-4"
             />
-            <h3 className="text-xl font-semibold">Team Member 2</h3>
+            <h3 className="text-xl font-semibold">Hemraj Chettri </h3>
             <p className="text-gray-600">Frontend Developer</p>
           </div>
           <div className="text-center p-4 bg-white rounded-lg shadow hover:shadow-lg transition">
@@ -62,7 +62,7 @@ const About = () => {
               alt="Team Member"
               className="rounded-full mx-auto mb-4"
             />
-            <h3 className="text-xl font-semibold">Team Member 3</h3>
+            <h3 className="text-xl font-semibold">Hemraj Chettri</h3>
             <p className="text-gray-600">UI/UX Designer</p>
           </div>
         </div>

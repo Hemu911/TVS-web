@@ -1,10 +1,11 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
+import hatti from '/hatti.jpeg'
 
 const Home = () => {
   return (
     <>
-      <Navbar title="Tourism Management System" />
+      <Navbar title="" />
 
       {/* Hero Section */}
       <section className="bg-blue-100 py-16 px-4 text-center">
@@ -15,6 +16,7 @@ const Home = () => {
         <button className="px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition duration-300">
           Get Started
         </button>
+        <img src={hatti} alt="" />
       </section>
 
       {/* About Section */}
