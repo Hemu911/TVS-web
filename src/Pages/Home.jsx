@@ -1,31 +1,33 @@
+// Home.jsx
 import React from 'react';
-import Navbar from '../Components/Navbar';
-import hatti from '/hatti.jpeg'
+import Navbar from '../Components/Navbar'; // Keep navbar in a separate file
 
 const Home = () => {
   return (
     <>
-      <Navbar title="" />
-
       {/* Hero Section */}
-      <section className="bg-blue-100 py-16 px-4 text-center">
-        <h1 className="text-5xl font-bold mb-4 text-blue-900">Explore the World with Us</h1>
-        <p className="text-lg text-gray-700 mb-6">
+      <section
+        className="bg-cover bg-center py-32 px-4 text-center"
+        style={{ backgroundImage: `url('/green.jpg')` }} // Make sure green.jpg is in /public
+      >
+        <h1 className="text-5xl font-bold mb-4 text-white drop-shadow-lg">
+          Explore the World with Us
+        </h1>
+        <p className="text-lg text-white mb-6 drop-shadow">
           Discover new places, unique cultures, and beautiful experiences with our tourism platform.
         </p>
         <button className="px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700 transition duration-300">
           Get Started
         </button>
-        <img src={hatti} alt="" />
       </section>
 
       {/* About Section */}
-      <section className="py-16 px-6 bg-white text-center">
+      <section className="py-16 px-4 md:px-6 bg-white text-center">
         <h2 className="text-3xl font-semibold text-amber-900 mb-4">Why Choose Us?</h2>
         <p className="text-gray-600 max-w-xl mx-auto mb-10">
           We provide the best travel experience with curated packages, affordable pricing, and 24/7 customer support.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           <div className="bg-amber-100 p-6 rounded shadow hover:shadow-lg transition">
             <h3 className="text-xl font-semibold mb-2">Best Destinations</h3>
             <p className="text-gray-700">Handpicked places that you'll fall in love with.</p>
@@ -41,8 +43,8 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Gallery or Tour Highlights */}
-      <section className="bg-blue-50 py-16 px-6">
+      {/* Gallery Section */}
+      <section className="bg-blue-50 py-16 px-4 md:px-6">
         <h2 className="text-3xl font-bold text-center text-blue-900 mb-10">Top Destinations</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           <img src="https://source.unsplash.com/400x300/?beach" alt="Beach" className="rounded-lg shadow-md" />

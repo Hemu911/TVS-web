@@ -4,12 +4,12 @@ const Navbar = (props) => {
     <>
       <div className="container mt-10  ">
         <div className="container   ">
-          <nav className="flex justify-around items-center text-center bg-amber-950 rounded w-[92%] m-auto text-white p-3">
+          <nav className="flex justify-around items-center text-center bg-black   rounded w-[92%] m-auto text-white m-5 p-3">
             <div className="text-4xl cursor-pointer text-white">
               {props.title}
             </div>
 
-            <ul className="flex gap-20 text-xl cursor-pointer">
+            <ul className="flex gap-20 text-xl cursor-pointer text-white">
               <Link to="/home">
                 <li>Home</li>
               </Link>
@@ -24,9 +24,6 @@ const Navbar = (props) => {
               </Link>
             </ul>
 
-            <div className="left">
-              <button className="p-2 bg-blue-600 rounded">Login</button>
-            </div>
           </nav>
         </div>
       </div>
